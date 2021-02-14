@@ -162,9 +162,11 @@ color: var(--text-color);
     background: var(--footer-hero-bg-color);
 }
 
+
+
 .hero .container {
     padding: 200px 0px 200px 0px;
-    text-align: center;  
+    text-align: center;
 }
 
 .hero-name {
@@ -349,6 +351,54 @@ color: var(--text-color);
 }
 
 /* === END OUR TEAM === */
+
+
+
+/* ===  OUR CLIENTS === */
+
+.clients {
+padding-top: 94px;
+padding-bottom: 94px;
+background: var(--white-text-color);
+}
+
+.clients .container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 15px;
+}
+
+.our-clients {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.166;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.our-clients-list {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+
+.our-clients-name {
+    width: 170px;
+    height: 90px;
+    margin-right: 30px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.our-clients-name:last-child {
+    margin-right: 0px;
+}
+
+/* ===  END OUR CLIENTS === */
 
 
 /* === BUTTONS === */ 
