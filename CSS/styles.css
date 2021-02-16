@@ -127,7 +127,7 @@ body {
 }
 
 .link {
-color: var(--text-color);
+    color: var(--text-color);
 }
 
 .contact-up-mail, .contact-up-tel {
@@ -174,7 +174,6 @@ color: var(--text-color);
 .hero .container {
     padding: 200px 0px 200px 0px;
     text-align: center;
-
 }
 
 .hero-name {
@@ -250,15 +249,14 @@ color: var(--text-color);
 }
 
 .advantages-name-about {
-   width: 270px;
-   font-weight: 400;
-   font-size: 14px;
-   line-height: 1.714;
-   letter-spacing: 0.03em;
+    width: 270px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
 }
 
 /* === END ADVANTAGES ===*/
-
 
 
 /* === WHAT WE DO === */
@@ -271,6 +269,10 @@ color: var(--text-color);
     padding-bottom: 94px;
 }
 
+.what-we-do-item:hover{
+    border-color: var(--accent-color);
+}
+
 .what-we-do-list {
     display: flex;
     margin: -15px;
@@ -278,6 +280,7 @@ color: var(--text-color);
 
 .what-we-do-item {
     margin: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .what-we-do-name {
@@ -324,9 +327,9 @@ color: var(--text-color);
 
 .team-list-item {
     margin-right: 30px;
-    width: 270px;
+    width: 272px;
     height: 428px;
-    background-color: teal;
+    background-color: var(--white-text-color);
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -334,6 +337,10 @@ color: var(--text-color);
 
 .team-list-item:last-child {
     margin-right: 0px;
+}
+
+.team-list-item:hover {
+    border-color: var(--accent-color);
 }
 
 .team-list-item-about {
@@ -373,7 +380,7 @@ color: var(--text-color);
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    
+    fill: #AFB1B8;
 }
 
 .social-list-link:hover,
@@ -389,19 +396,17 @@ color: var(--text-color);
 .social-list-icon {
     width: 20px;
     height: 20px;
-    
 }
 
 /* === END OUR TEAM === */
 
 
-
 /* ===  OUR CLIENTS === */
 
 .clients {
-padding-top: 94px;
-padding-bottom: 94px;
-background: var(--white-text-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background: var(--white-text-color);
 }
 
 .clients .container {
@@ -436,6 +441,23 @@ background: var(--white-text-color);
 
 .our-clients-name:last-child {
     margin-right: 0px;
+}
+
+.our-clients-link {    
+    fill: #AFB1B8;
+}
+
+.our-clients-icon:hover {
+    fill: var(--accent-color);
+}
+
+.our-clients-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.our-clients-name:hover {
+    border-color: var(--accent-color);
 }
 
 /* ===  END OUR CLIENTS === */
@@ -506,6 +528,10 @@ background: var(--white-text-color);
     margin-top: 56px;
     display: flex;
     flex-wrap: wrap;
+}
+
+.projects-examples-list-item:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .projects-list-item {
