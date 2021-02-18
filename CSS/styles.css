@@ -234,6 +234,16 @@ body {
     margin-right: 30px;
 }
 
+.advantages-icon {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: #F5F4FA;
+    justify-content: center;
+    align-items: center;
+}
+
 .advantages-list-item {
     width: 270px;
 }
@@ -428,7 +438,6 @@ body {
 
 .our-clients-list {
     display: flex;
-    flex-wrap: nowrap;
 }
 
 .our-clients-name {
@@ -437,23 +446,24 @@ body {
     margin-right: 30px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .our-clients-name:last-child {
     margin-right: 0px;
 }
 
-.our-clients-link {    
+.our-clients-icon {
     fill: #AFB1B8;
 }
 
+.our-clients-link {
+    display: flex;
+    justify-content: center;
+}
+    
 .our-clients-icon:hover {
     fill: var(--accent-color);
-}
-
-.our-clients-icon {
-    width: 70px;
-    height: 70px;
 }
 
 .our-clients-name:hover {
@@ -614,6 +624,15 @@ body {
 
 .logo-down {
     color: var(--white-text-color);
+}
+
+.connections-name {
+    color: var(--white-text-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
 }
 
 /* === END FOOTER === */
